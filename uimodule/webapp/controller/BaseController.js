@@ -3,7 +3,7 @@ sap.ui.define(
         "sap/ui/core/mvc/Controller",
         "sap/ui/core/routing/History",
         "sap/ui/core/UIComponent",
-        "aurora/fiori/app/p2p/model/formatter"
+        "sap/ui/demo/p2p/model/formatter"
     ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller

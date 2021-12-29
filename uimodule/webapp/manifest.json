@@ -42,7 +42,9 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "aurora.fiori.app.p2p.i18n.i18n"
+          "bundleName": "sap.ui.demo.p2p.i18n.i18n",
+          "suppoertedLocales": [""],
+          "fallbackLocale": ""
         }
       }
     },
@@ -58,7 +60,7 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "aurora.fiori.app.p2p.view",
+        "viewPath": "sap.ui.demo.p2p.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false
@@ -83,7 +85,7 @@
       }
     },
     "rootView": {
-      "viewName": "aurora.fiori.app.p2p.view.MainView",
+      "viewName": "sap.ui.demo.p2p.view.MainView",
       "type": "XML",
       "async": true,
       "id": "MainView"
